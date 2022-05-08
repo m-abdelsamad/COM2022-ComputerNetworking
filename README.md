@@ -1,5 +1,3 @@
-# COM2022-ComputerNetworking Repository
-
 # Computer Networking (COM2022) CW
 
 This repository contains the files that I have tested with my team, and the extensions put into a separate folder 'Potential Extensions'
