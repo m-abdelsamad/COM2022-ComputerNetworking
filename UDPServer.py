@@ -77,11 +77,11 @@ def symptomTestResult(msg):
 
 	response = ""
 	if severeCount > 0:
-		response = "severe symptoms"
+		response = "severe COVID symptoms"
 	elif severeCount == 0 and mildCount >= 0 and mildCount <= 2:
-		response = "no symptoms"
+		response = "no COVID symptoms"
 	elif severeCount == 0 and mildCount >= 3:
-		response = "mild symptoms"
+		response = "mild COVID symptoms"
 	
 	return response
 ####################################################

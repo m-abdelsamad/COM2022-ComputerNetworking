@@ -1,3 +1,4 @@
+from email import message
 import socket
 import time
 import random
@@ -182,8 +183,12 @@ def receiveData():
 
                 elif data["flagType"] == "REPLY":
                     print("Message from server")
-                    print(data["message"] + "\n")
+                    message = data["message"]
 
+                    if data["message"] == instructions[1]:
+                        message += "Enter from the following sypmtoms: cough, sneeze, fever, headache, loss of smell, loss of taste"
+
+                    print(message + "\n")
                     Intrcution = data["message"]
 
                     outT = threading.Thread(target=respond)
