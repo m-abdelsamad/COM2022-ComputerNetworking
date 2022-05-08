@@ -4,11 +4,11 @@ This repository contains the files that I have tested with my team, and the exte
 
 For running the files, please use:
 ```bash
-python3 UDPServer.py
+python UDPServer.py
 ```
 and
 ```bash
-python3 UDPClient.py
+python UDPClient.py
 ```
 
 ## Set up for Client code for testing with other team memebers
