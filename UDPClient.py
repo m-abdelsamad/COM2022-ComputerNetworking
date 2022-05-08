@@ -75,7 +75,7 @@ def sendData(dataMessage, checksum, flagType):
     if DataPacket["flagType"] != "ACK":     
         print('Waiting for AKC packet............\n')
 
-    if not connectionEstablished:
+    if not connectionEstablished and retransmitionCount == 0:
         #Start reciving thread when connection is getting established
         inT.start()
 #################################################### 

@@ -380,16 +380,6 @@ def recData():
 				sendData(NAKmsg, c_address)
 
 		except:
-			# client = getNonrespondingClient()
-			# if client is not None:
-			# 	print("\n***************************************")
-			# 	print("Client " + client.name + " has left the server\n")
-			# 	clients.remove(client)
-			# 	clientsCount-=1
-			# 	print("Connected Client(s):")
-			# 	printConnectedClients()
-			# 	print("***************************************\n")
-			# else:
 			pass
 ####################################################
 
